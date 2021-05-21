@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: 0;
+
+}
+
+.container{
+  display: flex;
+  flex-direction:column;
+  background-color: rgb(20, 18, 18);
+  max-width: 600px;
+  border-radius: 4px;
+  margin: 20px auto;
+  height: 600px;
+  padding: 40px;
+  line-height:40px;
+}
+
+
+.container h1{
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: center;
+  color: rgb(212, 162, 25);
+}
+.cpf-gerado{
+  margin-top: 40px;
+  background-color: white;
+  padding: 40px;
+  color: rgb(37, 24, 212);
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 5px;
+
+}
+.gerar-cpf{
+  height:40px;
+  margin-top: 40px;;
+  width:100%;
+  background-color: rgb(95, 36, 161);
+  border: 0;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+body, html{
+  background-color: rgb(95, 36, 161);
+  height: 100%;
+  width: 100%;
+  color: green;
+
+}
